@@ -1,0 +1,178 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Nav Bar CSS */
+
+.navbar {
+    padding-bottom: 4.5rem!important;
+}
+
+.nav-item {
+    padding: 0 18px!important;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif!important;
+    font-size: 2.5rem!important;
+    font-weight: bold;
+}
+
+/* Title Section CSS */
+
+#title {
+    background-color: #ff4c68;
+    border-radius: 0 0 32% 0;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder!important;
+    font-size: 3.5rem!important;
+    line-height: 1.5!important;
+    color: whitesmoke;
+}
+
+.container-fluid {
+    padding: 1% 15% 7%!important;
+}
+
+.db {
+    margin: 5% 3% 5% 0;
+}
+
+.phone-img {
+    width: 60%!important;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* Feature Section CSS */
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.fbox {
+    text-align: center;
+    padding: 5%!important;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder!important;  
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+   color: #ff4c68; 
+}
+
+/* Testimonial Section CSS */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold!important;
+    font-size: 3rem!important; 
+    line-height: 1.5!important;  
+}
+
+.timg {
+    width: 10%;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%!important;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.plogo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Price Section CSS */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.p-col {
+    padding: 3% 2%;
+}
+
+/* CTA Section CSS */
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-head {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder!important;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer CSS */
+
+#footer {
+    padding: 2% 15%;
+    text-align: center;
+}
+
+.si {
+    margin: 20px 10px;
+}
+
+/* Responsive CSS */
+
+@media (max-width: 1028px) {
+    
+    #title {
+        text-align: center!important;
+        border-radius: 0;
+    }
+
+    .phone-img {
+        position: static!important;
+        transform: rotate(0)!important;
+    }
+
+}
